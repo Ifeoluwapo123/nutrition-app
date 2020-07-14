@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+	<div class="container">
+		<div class="phone">
+			<label class="phonename">TABLET</label>
+			<div class="inner">
+				<div class="screen">
+					<h3 class="title"><em>FOOD&RECIPE</em></h3>
+					<div class="elements" id="elements">
+						<div class="chat">
+							<nav>Get Nutritional Information of Food and recipes</nav>
+						</div>
+						<div class="chatlists" id="food"><span>#1</span>
+						 	<div class="parent">
+						 		<div class="first">
+						 			<h4>Food: Potatoe chips and Chicken</h4>
+						 		</div>
+						 		<div class="second">
+						 			<img src="images/img.jpg">
+						 		</div>
+						 		<div class="third">
+						 			<p>Nutrient:</p>
+						 			<ul>
+						 				<li>Carbohydrate:</li>
+						 				<li>Protein:</li>
+						 				<li>Vitamin:</li>
+						 				<li>Fat:</li>
+						 			</ul>
+						 		</div>
+						 		<div class="fourth">
+						 			<p>Brand: Null</p>
+						 			<p>Package: Null</p>
+						 		</div>
+						 		<div class="fifth">Food Components: No data</div>
+						 	</div>
+						</div>
+						<div class="chatbox">
+							<input type="text" id="input" placeholder="Enter Any Food or Recipe e.g (Apple, Rice, Egg etc)">
+						</div>	
+					</div>
+				</div>
+			</div>
+			<table>
+				<td>
+					<tr>
+						<label class="mini"> </label>
+						<label class="center"> O </label>
+						<label class="back"> </label>
+					</tr>
+				</td>
+			</table>
+		</div>
+	</div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="home.js"></script>
+</html>
